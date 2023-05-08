@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link de CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>KeebMx</title>
+</head>
+
+<body>
+
+        <!-- Header menu navegacion -->
+        
+        <header class="header" id="header">
+        
+            <nav>
+                <a href="./index.html">
+                    <span class="second-color">Keeb</span>Mx
+                </a>
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./pages/catalogo.html">Catálogo</a>
+                    </li>
+                    <li>
+                        <a href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="./pages/registro.html" class="nicon" title="Registro">
+                            <img src="./assets/icon/adduser.png" alt="registro">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/login.html" class="nicon" title="Login">
+                            <img src="./assets/icon/login.png" alt="login">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/carrito.html" class="nicon" title="Carrito">
+                            <img src="./assets/icon/car.png" alt="carrito">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Principal -->
+        <main class="main" id="main">
+
+            
+        <!-- Carrusel -->
+            <section>
+                <div class="slide">
+                    <div class="slide-inner">
+                        <input class="slide-open" type="radio" id="slide-1" 
+                            name="slide" aria-hidden="true" hidden="" checked="checked">
+                        <div class="slide-item">
+                            <img src="./assets/42Azalia.jpg">
+                            <label class="slide-text">42Azalia</label>
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-2" 
+                            name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="./assets/banime40.jpg">
+                            <label class="slide-text">Banime40</label>
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-3" 
+                            name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="./assets/beyblock20.jpg">
+                            <label class="slide-text">Beyblock20</label>
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-4" 
+                            name="slide" aria-hidden="true" hidden="" checked="checked">
+                        <div class="slide-item">
+                            <img src="./assets/ffkbwithledring.jpg">
+                            <label class="slide-text">Ffkb with led ring</label>
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-5" 
+                            name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="./assets/freaku4x.jpg">
+                            <label class="slide-text">Freaku4x</label>
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-6" 
+                            name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="./assets/keezyboost40.jpg">
+                            <label class="slide-text">Keezy boost40</label>
+                        </div>
+
+                        <!-- Accion slide 1 (Constrol-1) direccion previa te lleva al slide 6 -->
+                        <label for="slide-6" class="slide-control prev control-1">‹</label>
+                        <!-- Accion slide 1 (Constrol-1) direccion previa te lleva al slide 2 -->
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-3" class="slide-control next control-2">›</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-4" class="slide-control next control-3">›</label>
+                        <label for="slide-3" class="slide-control prev control-4">‹</label>
+                        <label for="slide-5" class="slide-control next control-4">›</label>
+                        <label for="slide-4" class="slide-control prev control-5">‹</label>
+                        <label for="slide-6" class="slide-control next control-5">›</label>
+                        <label for="slide-5" class="slide-control prev control-6">‹</label>
+                        <label for="slide-1" class="slide-control next control-6">›</label>
+
+                        <ol class="slide-indicador">
+                            <li>
+                                <label for="slide-1" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-2" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-3" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-4" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-5" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-6" class="slide-circulo">•</label>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="historia fondo-fijo">
+                <div class="historia__info">
+                    <h2>Historia</h2>
+                    <p>Los primeros teclados solían ser un terminal de computadora que se comunicaba por puerto serial con la computadora. Además de las normas de teletipo, se diseñó un estándar de comunicación serie, según el tiempo de uso basado en el juego de caracteres ANSI.</p>
+                </div>
+                <img src="./assets/CT1024_Terminal_System.jpg" alt="CT1024 Terminal System">
+
+            </section>
+
+            <section class="fondo-fijo">
+
+            </section>
+
+            <!-- seccion DIstintos modelos de teclados -->
+            <section class="teclado">
+                <h2>Algunos teclados</h2>
+
+                <div class="cards">
+
+                    <!-- card keyboard -->
+                    <div class="card">
+
+                        <img src="./assets/42Azalia.jpg" alt="teclado">
+
+                        <div class="card__body">
+                            <h3>42Azalia</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                                et deleniti mollitia blanditiis est dolore. Unde?</p>
+                                <button class="btn">Ver mas</button>
+                        </div>
+                    </div>
+
+
+                    <!-- card keyboard -->
+                    <div class="card">
+                        <img src="./assets/banime40.jpg" alt="teclado">
+                        <div class="card__body">
+                            <h3>Banime40</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                                et deleniti mollitia blanditiis est dolore. Unde?</p>
+                                <button class="btn">Ver mas</button>
+                        </div>
+                    </div>
+
+                    <!-- card keyboard -->
+                    <div class="card">
+                        <img src="./assets/wEnki44.jpg" alt="teclado">
+                        <div class="card__body">
+                            <h3>Wenki44</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                                et deleniti mollitia blanditiis est dolore. Unde?</p>
+                                <button class="btn">Ver mas</button>
+                        </div>
+                    </div>
+
+                    <!-- card keyboard -->
+                    <div class="card">
+                        <img src="./assets/Velvet.jpg" alt="teclado">
+                        <div class="card__body">
+                            <h3>Velvet</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                                et deleniti mollitia blanditiis est dolore. Unde?</p>
+                                <button class="btn">Ver mas</button>
+                        </div>
+                    </div>
+
+                    <!-- card keyboard
+                    <div class="card card--2">
+                        <img src="./assets/beyblock20.jpg" alt="teclado">
+                        <div class="card__body card--body-2">
+                            <h3> beyblock20</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                                et deleniti mollitia blanditiis est dolore. Unde?</p>
+                                <button class="btn">Ver mas</button>
+
+                        </div>
+                    </div> -->
+                </div>
+            </section>    
+        </main>
+
+    <!--Pie de pagina -->
+    <footer>
+        <section>
+            <h3><span class="second-color">Redes </span>sociales </h3>
+            <a href="" class="footer-link" title="Facebook">
+                <img src="./assets/icon/facebook.png" alt="">
+            </a>
+            <a href="" class="footer-link" title="Instagram">
+                <img src="./assets/icon/instagram.png" alt="">
+            </a>
+            <a href="" class="footer-link" title="Twitter">
+                <img src="./assets/icon/twitter.png" alt="">
+            </a>
+        </section>
+
+        <section>
+            <h3> <span class="second-color">Quiero recibir</span> las ultimas noticias</h3>
+            <form action="">
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Ingresar email">
+                <button type="submit" class="btn">Suscribirme</button>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
