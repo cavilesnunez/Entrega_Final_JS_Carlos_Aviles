@@ -1,3 +1,5 @@
+//Arreglo no utilizado
+
 // const productos = [
 //     {
 //         id: 1,
